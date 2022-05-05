@@ -28,9 +28,9 @@ class _CallCardState extends State<CallCard> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
                 Text('+0 (000) 000-00-00',
-                    style:
-                    TextStyle(fontSize: 17, fontWeight: FontWeight.bold)),
-                Text('Доп. информация', style: TextStyle(color: Color(0xff8A8A8D), fontSize: 15)),
+                    style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold)),
+                Text('Доп. информация', style: //AppTextStyle.regular15()),
+                TextStyle(color: Color(0xff8A8A8D), fontSize: 15)),
               ],
             ),
           ),
@@ -40,7 +40,7 @@ class _CallCardState extends State<CallCard> {
               onPressed: () => Navigator.pushNamed(context, '/info'),
               icon: const Icon(
                 Icons.info_outlined,
-                color: Color(0xff3478F6),
+                color: Color(0xff3478f6),
                 size: 22,
               )),
         ],
