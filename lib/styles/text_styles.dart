@@ -13,7 +13,7 @@ class AppTextStyle {
 
   static TextStyle regular15({Color? color = AppColor.secondary}) {
     return TextStyle(
-      fontSize: 16,
+      fontSize: 15,
       color: color,
     );
   }
