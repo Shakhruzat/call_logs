@@ -16,6 +16,7 @@ class _RecentCallsState extends State<RecentCalls> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 1,
         title: const Text(
           'Журнал звонков',
           style: TextStyle(color: Colors.black),
