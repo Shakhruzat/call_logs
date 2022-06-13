@@ -55,9 +55,9 @@ class _RecentCallsState extends State<RecentCalls> {
               itemBuilder: (context, index) {
             final single_map = decoded[index];
             return CallCard(
-                call: single_map['person'] + '('+single_map['count'].toString() +')',
-            additional: single_map['additional'],
-            date: single_map['date'],);
+                call: single_map["person"] + '('+single_map["count"].toString() +')',
+            additional: single_map["additional"],
+            date: single_map["date"],);
           });
             //(children: cards);
             //CallCard(date: 'Вчера'),
